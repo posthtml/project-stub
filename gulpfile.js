@@ -6,7 +6,7 @@ gulp.task('build', function() {
         require('posthtml-custom-elements')()
     ];
 
-    return gulp.src('./pages/*.html')
+    return gulp.src('./pages/**/*.html')
         .pipe(posthtml(plugins))
         .pipe(gulp.dest('./dest'));
 });
