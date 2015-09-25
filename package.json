@@ -1,0 +1,26 @@
+{
+  "name": "project-stub",
+  "version": "1.0.0",
+  "description": "PostHTML Project Stub",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-posthtml": "^1.1.0",
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "posthtml-custom-elements": "^1.0.2",
+    "posthtml-doctype": "^0.1.0"
+  },
+  "scripts": {
+    "lint": "jshint . && jscs . -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posthtml/project-stub.git"
+  },
+  "author": "Ivan Voischev <voischev.ivan@ya.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/posthtml/gulp-posthtml/issues"
+  },
+  "homepage": "https://github.com/posthtml/gulp-posthtml#readme"
+}
