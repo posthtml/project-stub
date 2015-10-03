@@ -4,7 +4,7 @@
   "description": "PostHTML Project Stub",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-posthtml": "^1.1.0",
+    "gulp-posthtml": "^1.2.1",
     "jscs": "^1.13.1",
     "jshint": "^2.8.0",
     "posthtml-custom-elements": "^1.0.2"
