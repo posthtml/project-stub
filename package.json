@@ -7,6 +7,7 @@
     "gulp-posthtml": "^1.2.1",
     "jscs": "^1.13.1",
     "jshint": "^2.8.0",
+    "posthtml-bem": "^0.1.1",
     "posthtml-custom-elements": "^1.0.2",
     "posthtml-doctype": "^1.1.0",
     "posthtml-textr": "^1.0.4",

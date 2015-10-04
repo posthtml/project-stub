@@ -5,6 +5,11 @@ gulp.task('build', function() {
     var plugins = [
         require('posthtml-doctype')({ doctype: 'HTML 5' }),
         require('posthtml-custom-elements')(),
+        require('posthtml-bem')({
+            elemPrefix: '__',
+            modPrefix: '_',
+            modDlmtr: '_'
+        }),
         require('posthtml-textr')({}, [
             require('typographic-ellipses'),
             require('typographic-single-spaces')
