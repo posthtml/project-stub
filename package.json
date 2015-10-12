@@ -4,14 +4,16 @@
   "description": "PostHTML Project Stub",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-posthtml": "^1.2.1",
+    "gulp-posthtml": "^1.3.0",
     "jscs": "^1.13.1",
     "jshint": "^2.8.0",
     "posthtml-bem": "^0.1.1",
     "posthtml-custom-elements": "^1.0.2",
     "posthtml-doctype": "^1.1.0",
+    "posthtml-retext": "^0.1.0",
     "posthtml-textr": "^1.0.4",
-    "typographic-ellipses": "^1.0.11",
+    "retext-emoji": "^1.0.0",
+    "retext-smartypants": "^1.0.0",
     "typographic-single-spaces": "^1.0.2"
   },
   "scripts": {
