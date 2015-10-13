@@ -7,10 +7,13 @@
     "jshint": "^2.8.0",
     "posthtml": "^0.5.0",
     "posthtml-static-react": "^1.0.0",
-    "react": "^0.14.0"
+    "react": "^0.14.0",
+    "babel": "^5.8.23"
   },
   "scripts": {
-    "lint": "jshint . && jscs . -v"
+    "lint": "jshint . && jscs . -v",
+    "babel-prebuild": "babel index.js -o index-compiled.js && node index-compiled.js",
+    "babel-run": "babel-node ."
   },
   "repository": {
     "type": "git",
